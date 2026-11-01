@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<c:url var="pagingUrl" value="/app">
+  <c:forEach items="module,q,state,from,to,studentNo,action" var="filterKey">
+    <c:if test="${not empty param[filterKey]}"><c:param name="${filterKey}" value="${param[filterKey]}"/></c:if>
+  </c:forEach>
+  <c:param name="page" value="${targetPage}"/>
+</c:url>

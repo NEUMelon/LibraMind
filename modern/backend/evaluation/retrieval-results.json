@@ -1,0 +1,1240 @@
+{
+  "time": "2026-10-27T13:44:03.047894+00:00",
+  "index": {
+    "ready": true,
+    "loaded": 501,
+    "pending": 0,
+    "failed": 0,
+    "stale": 0,
+    "modelKey": "text-embedding-v4:1024:v1",
+    "workerEnabled": true
+  },
+  "labelStatus": "开发助手依据书目标题整理的单目标初始标签，未经过独立人工评审，不覆盖全部相关书目",
+  "summary": [
+    {
+      "group": "all",
+      "mode": "keyword",
+      "count": 20,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 24.72,
+      "p95Ms": 34.72,
+      "degradedCount": 0
+    },
+    {
+      "group": "all",
+      "mode": "vector",
+      "count": 20,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 1245.005,
+      "p95Ms": 1612.35,
+      "degradedCount": 0
+    },
+    {
+      "group": "all",
+      "mode": "hybrid",
+      "count": 20,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 1295.98,
+      "p95Ms": 5979.9,
+      "degradedCount": 0
+    },
+    {
+      "group": "exact",
+      "mode": "keyword",
+      "count": 8,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 26.435000000000002,
+      "p95Ms": 40.97,
+      "degradedCount": 0
+    },
+    {
+      "group": "exact",
+      "mode": "vector",
+      "count": 8,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 1118.2600000000002,
+      "p95Ms": 5658.28,
+      "degradedCount": 0
+    },
+    {
+      "group": "exact",
+      "mode": "hybrid",
+      "count": 8,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 1523.3000000000002,
+      "p95Ms": 5979.9,
+      "degradedCount": 0
+    },
+    {
+      "group": "natural",
+      "mode": "keyword",
+      "count": 12,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 23.945,
+      "p95Ms": 34.72,
+      "degradedCount": 0
+    },
+    {
+      "group": "natural",
+      "mode": "vector",
+      "count": 12,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 1347.395,
+      "p95Ms": 1612.35,
+      "degradedCount": 0
+    },
+    {
+      "group": "natural",
+      "mode": "hybrid",
+      "count": 12,
+      "hit5": 1,
+      "mrr5": 1.0,
+      "ndcg5": 1.0,
+      "p50Ms": 1295.98,
+      "p95Ms": 6007.26,
+      "degradedCount": 0
+    }
+  ],
+  "rows": [
+    {
+      "queryId": "Q01",
+      "query": "MongoDB权威指南",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115251121",
+        "9787115258540",
+        "9787115213631",
+        "9787115241009",
+        "9787115251947"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 25.41,
+      "degraded": []
+    },
+    {
+      "queryId": "Q01",
+      "query": "MongoDB权威指南",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115251121",
+        "9787115255952",
+        "9787115258540",
+        "9787115244857",
+        "9787115261274"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 913.34,
+      "degraded": []
+    },
+    {
+      "queryId": "Q01",
+      "query": "MongoDB权威指南",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115251121",
+        "9787115258540",
+        "9787115266149",
+        "9787115241009",
+        "9787115265913"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 5979.9,
+      "degraded": []
+    },
+    {
+      "queryId": "Q02",
+      "query": "Cassandra权威指南",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115258540",
+        "9787115251121",
+        "9787115239402",
+        "9787115250322",
+        "9787115228406"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 28.81,
+      "degraded": []
+    },
+    {
+      "queryId": "Q02",
+      "query": "Cassandra权威指南",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115258540",
+        "9787115242273",
+        "9787115251121",
+        "9787115239402",
+        "9787115233837"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1395.85,
+      "degraded": []
+    },
+    {
+      "queryId": "Q02",
+      "query": "Cassandra权威指南",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115258540",
+        "9787115251121",
+        "9787115239402",
+        "9787115268334",
+        "9787115266026"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 902.48,
+      "degraded": []
+    },
+    {
+      "queryId": "Q03",
+      "query": "9787115255952",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115255952"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 23.3,
+      "degraded": []
+    },
+    {
+      "queryId": "Q03",
+      "query": "9787115255952",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115255952"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 14.49,
+      "degraded": []
+    },
+    {
+      "queryId": "Q03",
+      "query": "9787115255952",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115255952"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 16.35,
+      "degraded": []
+    },
+    {
+      "queryId": "Q04",
+      "query": "黑客与画家",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115249494"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 30.1,
+      "degraded": []
+    },
+    {
+      "queryId": "Q04",
+      "query": "黑客与画家",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115249494",
+        "9787115271013",
+        "9787501360895",
+        "9787501355594",
+        "9787115265913"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1054.89,
+      "degraded": []
+    },
+    {
+      "queryId": "Q04",
+      "query": "黑客与画家",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115249494",
+        "9787115271013",
+        "9787501360895",
+        "9787501355594",
+        "9787115265913"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 2325.24,
+      "degraded": []
+    },
+    {
+      "queryId": "Q05",
+      "query": "SQL反模式",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261274",
+        "9787115266149",
+        "9787115255952",
+        "9787115256195",
+        "9787115261731"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 27.46,
+      "degraded": []
+    },
+    {
+      "queryId": "Q05",
+      "query": "SQL反模式",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261274",
+        "9787115261731",
+        "9787115266149",
+        "9787115256195",
+        "9787115227737"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1181.63,
+      "degraded": []
+    },
+    {
+      "queryId": "Q05",
+      "query": "SQL反模式",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261274",
+        "9787115266149",
+        "9787115261731",
+        "9787115256195",
+        "9787115255952"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 2391.13,
+      "degraded": []
+    },
+    {
+      "queryId": "Q06",
+      "query": "信息检索导论",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115234247",
+        "9787115241009",
+        "9787501372706",
+        "9787501383016",
+        "9787501374373"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 40.97,
+      "degraded": []
+    },
+    {
+      "queryId": "Q06",
+      "query": "信息检索导论",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115234247",
+        "9787501383016",
+        "9787501377305",
+        "9787115241009",
+        "9787501379163"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 5658.28,
+      "degraded": []
+    },
+    {
+      "queryId": "Q06",
+      "query": "信息检索导论",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115234247",
+        "9787115241009",
+        "9787501383016",
+        "9787501377305",
+        "9787501372706"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 928.8,
+      "degraded": []
+    },
+    {
+      "queryId": "Q07",
+      "query": "认知与设计",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261410",
+        "9787115224248",
+        "9787115242334",
+        "9787115249258",
+        "9787115259783"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 22.42,
+      "degraded": []
+    },
+    {
+      "queryId": "Q07",
+      "query": "认知与设计",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261410",
+        "9787115188120",
+        "9787115207678",
+        "9787115240989",
+        "9787115224637"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1429.39,
+      "degraded": []
+    },
+    {
+      "queryId": "Q07",
+      "query": "认知与设计",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261410",
+        "9787115224248",
+        "9787115259783",
+        "9787115249258",
+        "9787115221704"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 957.03,
+      "degraded": []
+    },
+    {
+      "queryId": "Q08",
+      "query": "JavaScript DOM编程艺术",
+      "type": "exact",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115249999",
+        "9787115244857",
+        "9787115230959",
+        "9787115262912",
+        "9787115265562"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 24.75,
+      "degraded": []
+    },
+    {
+      "queryId": "Q08",
+      "query": "JavaScript DOM编程艺术",
+      "type": "exact",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115249999",
+        "9787115265562",
+        "9787115262912",
+        "9787115230959",
+        "9787115179289"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 890.77,
+      "degraded": []
+    },
+    {
+      "queryId": "Q08",
+      "query": "JavaScript DOM编程艺术",
+      "type": "exact",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115249999",
+        "9787115265562",
+        "9787115230959",
+        "9787115262912",
+        "9787115244857"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 2089.57,
+      "degraded": []
+    },
+    {
+      "queryId": "Q09",
+      "query": "想学测试驱动开发，有什么书可以入门",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115238368",
+        "9787115241160",
+        "9787115255402",
+        "9787115247995",
+        "9787115238870"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 24.69,
+      "degraded": []
+    },
+    {
+      "queryId": "Q09",
+      "query": "想学测试驱动开发，有什么书可以入门",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115238368",
+        "9787115247995",
+        "9787115255402",
+        "9787115265913",
+        "9787115212771"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1612.35,
+      "degraded": []
+    },
+    {
+      "queryId": "Q09",
+      "query": "想学测试驱动开发，有什么书可以入门",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115238368",
+        "9787115247995",
+        "9787115255402",
+        "9787115212771",
+        "9787115265913"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1269.03,
+      "degraded": []
+    },
+    {
+      "queryId": "Q10",
+      "query": "怎样改善既有代码的设计，学习重构",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115221704",
+        "9787115188120",
+        "9787115259615",
+        "9787115213631",
+        "9787501383207"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 34.72,
+      "degraded": []
+    },
+    {
+      "queryId": "Q10",
+      "query": "怎样改善既有代码的设计，学习重构",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115221704",
+        "9787115259783",
+        "9787115179289",
+        "9787115240989",
+        "9787115251510"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1427.13,
+      "degraded": []
+    },
+    {
+      "queryId": "Q10",
+      "query": "怎样改善既有代码的设计，学习重构",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115221704",
+        "9787115188120",
+        "9787115259783",
+        "9787115261410",
+        "9787115240989"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1863.89,
+      "degraded": []
+    },
+    {
+      "queryId": "Q11",
+      "query": "想学领域驱动设计，应对复杂业务软件",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115238870",
+        "9787115212771",
+        "9787501368266",
+        "9787501370047",
+        "9787501355754"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 7.91,
+      "degraded": []
+    },
+    {
+      "queryId": "Q11",
+      "query": "想学领域驱动设计，应对复杂业务软件",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115238870",
+        "9787115212771",
+        "9787115238368",
+        "9787115244888",
+        "9787115227737"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1303.52,
+      "degraded": []
+    },
+    {
+      "queryId": "Q11",
+      "query": "想学领域驱动设计，应对复杂业务软件",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115238870",
+        "9787115212771",
+        "9787115238368",
+        "9787115248497",
+        "9787115244888"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 3404.58,
+      "degraded": []
+    },
+    {
+      "queryId": "Q12",
+      "query": "我想了解Linux内核编程",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115251947",
+        "9787115227430",
+        "9787115228215",
+        "9787115264725",
+        "9787115255525"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 17.04,
+      "degraded": []
+    },
+    {
+      "queryId": "Q12",
+      "query": "我想了解Linux内核编程",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115251947",
+        "9787115227430",
+        "9787115228215",
+        "9787115230287",
+        "9787115228406"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1391.27,
+      "degraded": []
+    },
+    {
+      "queryId": "Q12",
+      "query": "我想了解Linux内核编程",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115251947",
+        "9787115227430",
+        "9787115228215",
+        "9787115264725",
+        "9787115264312"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 771.53,
+      "degraded": []
+    },
+    {
+      "queryId": "Q13",
+      "query": "用番茄工作法管理时间的图解书",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115246691",
+        "9787501364589",
+        "9787501357833",
+        "9787501369478",
+        "9787501357710"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 25.14,
+      "degraded": []
+    },
+    {
+      "queryId": "Q13",
+      "query": "用番茄工作法管理时间的图解书",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115246691",
+        "9787115213617",
+        "9787115244888",
+        "9787115207678",
+        "9787115251008"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1538.6,
+      "degraded": []
+    },
+    {
+      "queryId": "Q13",
+      "query": "用番茄工作法管理时间的图解书",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115246691",
+        "9787115213617",
+        "9787115243188",
+        "9787115227867",
+        "9787501364589"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 3932.92,
+      "degraded": []
+    },
+    {
+      "queryId": "Q14",
+      "query": "学习持续交付和可靠的软件发布方法",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115264596",
+        "9787115255402",
+        "9787115227737",
+        "9787115261731",
+        "9787501383207"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 23.09,
+      "degraded": []
+    },
+    {
+      "queryId": "Q14",
+      "query": "学习持续交付和可靠的软件发布方法",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115264596",
+        "9787115255402",
+        "9787115252609",
+        "9787115238368",
+        "9787115239976"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1426.03,
+      "degraded": []
+    },
+    {
+      "queryId": "Q14",
+      "query": "学习持续交付和可靠的软件发布方法",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115264596",
+        "9787115255402",
+        "9787115227737",
+        "9787115261731",
+        "9787115252609"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 998.87,
+      "degraded": []
+    },
+    {
+      "queryId": "Q15",
+      "query": "想学习UNIX套接字网络编程",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115228406",
+        "9787115230287",
+        "9787501383207",
+        "9787501379279",
+        "9787115147318"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 20.01,
+      "degraded": []
+    },
+    {
+      "queryId": "Q15",
+      "query": "想学习UNIX套接字网络编程",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115228406",
+        "9787115230287",
+        "9787115147318",
+        "9787115260314",
+        "9787115251947"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 881.54,
+      "degraded": []
+    },
+    {
+      "queryId": "Q15",
+      "query": "想学习UNIX套接字网络编程",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115228406",
+        "9787115230287",
+        "9787115147318",
+        "9787115251947",
+        "9787115259455"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 958.55,
+      "degraded": []
+    },
+    {
+      "queryId": "Q16",
+      "query": "需要一本HTML5 Canvas基础教程",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115271013",
+        "9787115267245",
+        "9787115263636",
+        "9787115244871",
+        "9787115208774"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 24.27,
+      "degraded": []
+    },
+    {
+      "queryId": "Q16",
+      "query": "需要一本HTML5 Canvas基础教程",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115271013",
+        "9787115267245",
+        "9787115244871",
+        "9787115263636",
+        "9787115265562"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 823.3,
+      "degraded": []
+    },
+    {
+      "queryId": "Q16",
+      "query": "需要一本HTML5 Canvas基础教程",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115271013",
+        "9787115267245",
+        "9787115263636",
+        "9787115244871",
+        "9787115208774"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1322.93,
+      "degraded": []
+    },
+    {
+      "queryId": "Q17",
+      "query": "用UML学习面向对象建模与设计",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115224248",
+        "9787115256249",
+        "9787115261410",
+        "9787501383207",
+        "9787501379279"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 17.95,
+      "degraded": []
+    },
+    {
+      "queryId": "Q17",
+      "query": "用UML学习面向对象建模与设计",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115224248",
+        "9787115240989",
+        "9787115212771",
+        "9787115259783",
+        "9787115238870"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1571.27,
+      "degraded": []
+    },
+    {
+      "queryId": "Q17",
+      "query": "用UML学习面向对象建模与设计",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115224248",
+        "9787115261410",
+        "9787115256249",
+        "9787115261731",
+        "9787115259783"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 819.57,
+      "degraded": []
+    },
+    {
+      "queryId": "Q18",
+      "query": "想看计算机科学概论第11版",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261960",
+        "9787501366453",
+        "9787501319459",
+        "9787115227867",
+        "9787115244857"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 27.59,
+      "degraded": []
+    },
+    {
+      "queryId": "Q18",
+      "query": "想看计算机科学概论第11版",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261960",
+        "9787115242273",
+        "9787115268334",
+        "9787115220172",
+        "9787115188120"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 940.37,
+      "degraded": []
+    },
+    {
+      "queryId": "Q18",
+      "query": "想看计算机科学概论第11版",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115261960",
+        "9787115216342",
+        "9787115258540",
+        "9787115240767",
+        "9787115252197"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 6007.26,
+      "degraded": []
+    },
+    {
+      "queryId": "Q19",
+      "query": "学习C语言接口和可重用软件实现",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115260314",
+        "9787115219572",
+        "9787115227737",
+        "9787115261731",
+        "9787501383207"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 26.97,
+      "degraded": []
+    },
+    {
+      "queryId": "Q19",
+      "query": "学习C语言接口和可重用软件实现",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115260314",
+        "9787115219572",
+        "9787115268761",
+        "9787115242273",
+        "9787115268334"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 1186.49,
+      "degraded": []
+    },
+    {
+      "queryId": "Q19",
+      "query": "学习C语言接口和可重用软件实现",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115260314",
+        "9787115219572",
+        "9787115227737",
+        "9787115261731",
+        "9787115252609"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 2058.33,
+      "degraded": []
+    },
+    {
+      "queryId": "Q20",
+      "query": "想学Hadoop实战的大数据处理",
+      "type": "natural",
+      "mode": "keyword",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115264480",
+        "9787501375943",
+        "9787501369430",
+        "9787501367627",
+        "9787115212771"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 23.62,
+      "degraded": []
+    },
+    {
+      "queryId": "Q20",
+      "query": "想学Hadoop实战的大数据处理",
+      "type": "natural",
+      "mode": "vector",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115264480",
+        "9787115268655",
+        "9787115212771",
+        "9787115266026",
+        "9787115256249"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 957.25,
+      "degraded": []
+    },
+    {
+      "queryId": "Q20",
+      "query": "想学Hadoop实战的大数据处理",
+      "type": "natural",
+      "mode": "hybrid",
+      "requestedModel": "text-embedding-v4:1024:v1",
+      "returnedIsbns": [
+        "9787115264480",
+        "9787115212771",
+        "9787115268655",
+        "9787115265562",
+        "9787115264954"
+      ],
+      "hit5": 1,
+      "reciprocalRank5": 1.0,
+      "ndcg5": 1.0,
+      "latencyMs": 718.79,
+      "degraded": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Build outputs and local environments
+**/target/
+**/node_modules/
+**/dist/
+**/.runtime/
+**/.idea/
+**/.run/
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/.env
+**/.env.*
+**/config/*.properties
+!**/config/*.example.properties
+**/data/replays/
+**/data/covers/
+**/e2e/output/

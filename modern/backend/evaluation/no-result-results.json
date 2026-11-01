@@ -1,0 +1,29 @@
+{
+  "query": {
+    "id": "N01",
+    "type": "no-result-isbn",
+    "query": "9780000000002",
+    "expectedIsbns": [],
+    "note": "校验位有效、当前500条馆藏中不存在的合成ISBN查询，不冒充真实出版物"
+  },
+  "rows": [
+    {
+      "mode": "keyword",
+      "returnedMode": "isbn",
+      "hits": 0,
+      "passed": true
+    },
+    {
+      "mode": "vector",
+      "returnedMode": "isbn",
+      "hits": 0,
+      "passed": true
+    },
+    {
+      "mode": "hybrid",
+      "returnedMode": "isbn",
+      "hits": 0,
+      "passed": true
+    }
+  ]
+}

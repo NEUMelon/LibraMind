@@ -1,0 +1,24 @@
+<%@ page pageEncoding="UTF-8" %>
+<c:set var="firstPage" value="${page.pages le 7 ? 1 : (page.number gt 2 ? page.number-2 : 1)}"/>
+<c:set var="lastPage" value="${page.pages le 7 ? page.pages : (page.number+2 lt page.pages ? page.number+2 : page.pages)}"/>
+<div class="pagination">
+  <span>共 <strong>${page.total}</strong> 条记录</span>
+  <nav aria-label="结果分页" class="page-links">
+    <c:choose>
+      <c:when test="${page.number gt 1}"><c:set var="targetPage" value="${page.number-1}"/><%@ include file="page-url.jspf" %><a class="page-arrow" href="<c:out value='${pagingUrl}'/>">上一页</a></c:when>
+      <c:otherwise><span class="page-arrow disabled" aria-disabled="true">上一页</span></c:otherwise>
+    </c:choose>
+    <c:if test="${firstPage gt 1}"><c:set var="targetPage" value="1"/><%@ include file="page-url.jspf" %><a class="page-number" href="<c:out value='${pagingUrl}'/>" aria-label="第1页">1</a><c:if test="${firstPage gt 2}"><span class="page-gap" aria-hidden="true">…</span></c:if></c:if>
+    <c:forEach begin="${firstPage}" end="${lastPage}" var="pageIndex">
+      <c:choose>
+        <c:when test="${pageIndex eq page.number}"><span class="page-current" aria-current="page" aria-label="第${pageIndex}页">${pageIndex}</span></c:when>
+        <c:otherwise><c:set var="targetPage" value="${pageIndex}"/><%@ include file="page-url.jspf" %><a class="page-number" href="<c:out value='${pagingUrl}'/>" aria-label="第${pageIndex}页">${pageIndex}</a></c:otherwise>
+      </c:choose>
+    </c:forEach>
+    <c:if test="${lastPage lt page.pages}"><c:if test="${lastPage lt page.pages-1}"><span class="page-gap" aria-hidden="true">…</span></c:if><c:set var="targetPage" value="${page.pages}"/><%@ include file="page-url.jspf" %><a class="page-number" href="<c:out value='${pagingUrl}'/>" aria-label="第${page.pages}页">${page.pages}</a></c:if>
+    <c:choose>
+      <c:when test="${page.number lt page.pages}"><c:set var="targetPage" value="${page.number+1}"/><%@ include file="page-url.jspf" %><a class="page-arrow" href="<c:out value='${pagingUrl}'/>">下一页</a></c:when>
+      <c:otherwise><span class="page-arrow disabled" aria-disabled="true">下一页</span></c:otherwise>
+    </c:choose>
+  </nav>
+</div>

@@ -1,0 +1,22 @@
+[
+  {"id":"Q01","type":"exact","query":"MongoDB权威指南","relevantIsbns":["9787115251121"]},
+  {"id":"Q02","type":"exact","query":"Cassandra权威指南","relevantIsbns":["9787115258540"]},
+  {"id":"Q03","type":"exact","query":"9787115255952","relevantIsbns":["9787115255952"]},
+  {"id":"Q04","type":"exact","query":"黑客与画家","relevantIsbns":["9787115249494"]},
+  {"id":"Q05","type":"exact","query":"SQL反模式","relevantIsbns":["9787115261274"]},
+  {"id":"Q06","type":"exact","query":"信息检索导论","relevantIsbns":["9787115234247"]},
+  {"id":"Q07","type":"exact","query":"认知与设计","relevantIsbns":["9787115261410"]},
+  {"id":"Q08","type":"exact","query":"JavaScript DOM编程艺术","relevantIsbns":["9787115249999"]},
+  {"id":"Q09","type":"natural","query":"想学测试驱动开发，有什么书可以入门","relevantIsbns":["9787115238368"]},
+  {"id":"Q10","type":"natural","query":"怎样改善既有代码的设计，学习重构","relevantIsbns":["9787115221704"]},
+  {"id":"Q11","type":"natural","query":"想学领域驱动设计，应对复杂业务软件","relevantIsbns":["9787115238870"]},
+  {"id":"Q12","type":"natural","query":"我想了解Linux内核编程","relevantIsbns":["9787115251947"]},
+  {"id":"Q13","type":"natural","query":"用番茄工作法管理时间的图解书","relevantIsbns":["9787115246691"]},
+  {"id":"Q14","type":"natural","query":"学习持续交付和可靠的软件发布方法","relevantIsbns":["9787115264596"]},
+  {"id":"Q15","type":"natural","query":"想学习UNIX套接字网络编程","relevantIsbns":["9787115228406"]},
+  {"id":"Q16","type":"natural","query":"需要一本HTML5 Canvas基础教程","relevantIsbns":["9787115271013"]},
+  {"id":"Q17","type":"natural","query":"用UML学习面向对象建模与设计","relevantIsbns":["9787115224248"]},
+  {"id":"Q18","type":"natural","query":"想看计算机科学概论第11版","relevantIsbns":["9787115261960"]},
+  {"id":"Q19","type":"natural","query":"学习C语言接口和可重用软件实现","relevantIsbns":["9787115260314"]},
+  {"id":"Q20","type":"natural","query":"想学Hadoop实战的大数据处理","relevantIsbns":["9787115264480"]}
+]

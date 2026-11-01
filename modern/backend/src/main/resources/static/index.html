@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LibraMind 图书馆</title>
+    <link rel="stylesheet" href="/assets/app.css">
+    <script src="/assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到内容</a>
+<header><a class="brand" href="#books">LibraMind <span>图书馆</span></a><div id="identity"><button id="loginButton">登录</button></div></header>
+<div class="layout">
+    <nav aria-label="主要导航" id="navigation"></nav>
+    <main id="main" tabindex="-1"><div id="notice" role="status" aria-live="polite" hidden></div><div id="content"></div></main>
+</div>
+<dialog id="dialog" aria-labelledby="dialogTitle"><form id="dialogForm"><div class="dialog-head"><h2 id="dialogTitle"></h2><button type="button" id="closeDialog" aria-label="关闭">×</button></div><div id="dialogBody"></div><p id="dialogError" role="alert" tabindex="-1" hidden></p><div id="dialogFooter" class="dialog-footer"><button type="button" id="cancelDialog">取消</button><button class="primary" id="saveDialog" type="submit">保存</button></div></form></dialog>
+<footer>LibraMind 开发验证版 <a href="/swagger-ui.html" target="_blank" rel="noopener">接口文档</a></footer>
+</body>
+</html>

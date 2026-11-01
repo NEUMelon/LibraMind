@@ -1,0 +1,2 @@
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" isErrorPage="true" %>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>页面暂不可用 · 阅序</title><link rel="stylesheet" href="${pageContext.request.contextPath}/assets/app.css?v=12"></head><body class="standalone-error"><section class="panel error-panel"><h1>页面暂时不可用</h1><p>请返回工作台重试。若仍无法打开，请检查服务运行情况。</p><a class="button primary" href="${pageContext.request.contextPath}/app">返回工作台</a></section></body></html>

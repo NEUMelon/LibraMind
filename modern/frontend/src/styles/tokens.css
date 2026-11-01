@@ -1,0 +1,109 @@
+/*
+ * LibraMind 设计令牌
+ * 方向：纸张底色 + 墨色文字 + 单一馆藏绿。书名用宋体衬线，界面用无衬线。
+ * 状态色只用于状态，不做装饰。
+ */
+:root {
+  --font-ui: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei",
+    "Noto Sans CJK SC", "Noto Sans SC", "WenQuanYi Zen Hei", system-ui, sans-serif;
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong",
+    "SimSun", serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", "Cascadia Mono", Consolas, "Liberation Mono",
+    ui-monospace, monospace;
+
+  /* 纸与墨 */
+  --paper: #f6f3ec;
+  --paper-2: #efeae0;
+  --surface: #fffdf9;
+  --surface-sunk: #f9f6f0;
+  --ink: #1d1b18;
+  --ink-2: #4f4a42;
+  --ink-3: #807a6f;
+  --ink-4: #a8a195;
+  --rule: #e3ddd1;
+  --rule-strong: #cfc7b8;
+
+  /* 馆藏绿：唯一主色 */
+  --accent: #1f4f43;
+  --accent-hover: #173d34;
+  --accent-ink: #f6f3ec;
+  --accent-soft: #e2ece6;
+  --accent-text: #1f5446;
+
+  /* 状态 */
+  --ok: #2c6a4f;
+  --ok-soft: #e3efe7;
+  --warn: #8a5a0b;
+  --warn-soft: #f5ead2;
+  --danger: #a3372a;
+  --danger-soft: #f6e2dd;
+  --muted: #5d6570;
+  --muted-soft: #e9e9e6;
+  --info: #2d5a86;
+  --info-soft: #e3ebf3;
+
+  --focus: 0 0 0 3px rgba(31, 79, 67, 0.28);
+  --shadow-1: 0 1px 2px rgba(40, 33, 20, 0.06), 0 1px 1px rgba(40, 33, 20, 0.04);
+  --shadow-2: 0 6px 24px rgba(40, 33, 20, 0.10), 0 2px 6px rgba(40, 33, 20, 0.06);
+  --shadow-3: 0 18px 50px rgba(30, 24, 14, 0.18);
+
+  --r-1: 4px;
+  --r-2: 6px;
+  --r-3: 10px;
+  --r-4: 14px;
+
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+
+  --t-xs: 12px;
+  --t-sm: 13px;
+  --t-md: 14px;
+  --t-lg: 16px;
+  --t-xl: 19px;
+  --t-2xl: 24px;
+  --t-3xl: 30px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #171614;
+    --paper-2: #1e1c19;
+    --surface: #211f1c;
+    --surface-sunk: #1b1a17;
+    --ink: #ece7dd;
+    --ink-2: #c4bdb0;
+    --ink-3: #958e82;
+    --ink-4: #6f695f;
+    --rule: #34312c;
+    --rule-strong: #46423b;
+    --accent: #7fb8a1;
+    --accent-hover: #98c9b5;
+    --accent-ink: #13201b;
+    --accent-soft: #23342d;
+    --accent-text: #93c5b0;
+    --ok: #86c3a2;
+    --ok-soft: #21332a;
+    --warn: #e0b562;
+    --warn-soft: #382d18;
+    --danger: #ec8f80;
+    --danger-soft: #3b231f;
+    --muted: #a7adb5;
+    --muted-soft: #2b2b2a;
+    --info: #8fb4dc;
+    --info-soft: #1f2a36;
+    --focus: 0 0 0 3px rgba(127, 184, 161, 0.35);
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-2: 0 8px 24px rgba(0, 0, 0, 0.45);
+    --shadow-3: 0 18px 50px rgba(0, 0, 0, 0.6);
+    color-scheme: dark;
+  }
+}

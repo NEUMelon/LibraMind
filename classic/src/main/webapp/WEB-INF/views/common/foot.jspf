@@ -1,0 +1,12 @@
+<%@ page pageEncoding="UTF-8" %>
+  </main>
+</div>
+<dialog id="confirm-dialog" aria-labelledby="confirm-title" aria-describedby="confirm-message">
+  <form method="dialog">
+    <div class="dialog-header"><h2 id="confirm-title">确认操作</h2><button class="dialog-close" type="submit" value="cancel" aria-label="取消并关闭">×</button></div>
+    <p id="confirm-message"></p>
+    <div class="dialog-actions"><button value="cancel" class="button secondary" autofocus>取消</button><button value="confirm" class="button danger" id="confirm-submit">确认</button></div>
+  </form>
+</dialog>
+</body>
+</html>

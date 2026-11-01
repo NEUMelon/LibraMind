@@ -1,0 +1,896 @@
+{
+  "time": "2026-10-27T14:01:01.627484+00:00",
+  "dataset": "20张既有Open Library封面缓存，只有馆内正例，没有真实拍摄、负例或人工候选确认",
+  "limitations": "ISBN文件名关联尚未独立人工复核；不能据此宣称真实拍照识书准确率；不是v1.2评估集A的完成报告",
+  "count": 20,
+  "workTop1": 0.85,
+  "workTop5": 0.95,
+  "versionInCandidates": 0.95,
+  "p50Ms": 2135.925,
+  "p95Ms": 2461.92,
+  "rows": [
+    {
+      "expectedIsbn": "9787115147318",
+      "expectedEditionId": 74,
+      "expectedWorkId": 74,
+      "file": "data/covers/9787115147318.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "UNIX环境高级编程",
+        "subtitle": "Advanced Programming in the UNIX Environment Second Edition",
+        "authors": "W. Richard Stevens, Stephen A. Rago",
+        "translators": "李勇, 张金波, 姚文兵",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "第2版",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        74,
+        34,
+        492,
+        72,
+        73
+      ],
+      "candidateEditions": [
+        74,
+        34,
+        492,
+        72,
+        73
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 1,
+      "latencyMs": 2348.51
+    },
+    {
+      "expectedIsbn": "9787115155108",
+      "expectedEditionId": 48,
+      "expectedWorkId": 48,
+      "file": "data/covers/9787115155108.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "C++ Primer",
+        "subtitle": "习题解答",
+        "authors": "",
+        "translators": "",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "第4版",
+        "volume": "",
+        "language": "",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "作者姓名模糊，无法准确识别",
+          "ISBN缺失"
+        ]
+      },
+      "warnings": [],
+      "workTop1": false,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        45,
+        48,
+        5,
+        96,
+        470
+      ],
+      "candidateEditions": [
+        45,
+        48,
+        5,
+        96,
+        470
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 2,
+      "latencyMs": 1595.5
+    },
+    {
+      "expectedIsbn": "9787115188120",
+      "expectedEditionId": 113,
+      "expectedWorkId": 113,
+      "file": "data/covers/9787115188120.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "写给大家看的设计书",
+        "subtitle": "",
+        "authors": "Roberta Williams",
+        "translators": "孟永岗, 赖静",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "2014",
+        "editionStatement": "第2版",
+        "volume": "",
+        "language": "",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "classificationNo不可见",
+          "isbn13不可见",
+          "language不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        113,
+        114,
+        115,
+        108,
+        58
+      ],
+      "candidateEditions": [
+        113,
+        114,
+        115,
+        108,
+        58
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 3,
+      "latencyMs": 1841.1
+    },
+    {
+      "expectedIsbn": "9787115215536",
+      "expectedEditionId": 27,
+      "expectedWorkId": 27,
+      "file": "data/covers/9787115215536.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "高效程序员的45个习惯",
+        "subtitle": "敏捷开发修炼之道",
+        "authors": "Michael A. Cohn, Andy Hunt",
+        "translators": "魏江林",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "2010年",
+        "editionStatement": "",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "classificationNo不可见",
+          "isbn13不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        27,
+        12,
+        108,
+        3,
+        54
+      ],
+      "candidateEditions": [
+        27,
+        12,
+        108,
+        3,
+        54
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 4,
+      "latencyMs": 2208.6
+    },
+    {
+      "expectedIsbn": "9787115219572",
+      "expectedEditionId": 52,
+      "expectedWorkId": 52,
+      "file": "data/covers/9787115219572.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "C语言程序设计 现代方法",
+        "subtitle": "C Programming: A Modern Approach, Second Edition",
+        "authors": "[美] K.N. King",
+        "translators": "侯捷, 黄倩",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "第2版",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": []
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        52,
+        50,
+        51,
+        41,
+        44
+      ],
+      "candidateEditions": [
+        52,
+        50,
+        51,
+        41,
+        44
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 5,
+      "latencyMs": 2064.27
+    },
+    {
+      "expectedIsbn": "9787115226570",
+      "expectedEditionId": 116,
+      "expectedWorkId": 116,
+      "file": "data/covers/9787115226570.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "数学万花筒",
+        "subtitle": "五光十色的数学趣题和逸事",
+        "authors": "Ian Stewart",
+        "translators": "张军",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "Chinese",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "classificationNo not visible on cover"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        116,
+        123,
+        117,
+        120,
+        125
+      ],
+      "candidateEditions": [
+        116,
+        123,
+        117,
+        120,
+        125
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 6,
+      "latencyMs": 2040.71
+    },
+    {
+      "expectedIsbn": "9787115233783",
+      "expectedEditionId": 120,
+      "expectedWorkId": 120,
+      "file": "data/covers/9787115233783.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "你不可不知的50个数学知识",
+        "subtitle": "50 Mathematical Ideas You Really Need to Know",
+        "authors": "Tony Crilly",
+        "translators": "董宏",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "2008",
+        "editionStatement": "",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见",
+          "版次信息缺失",
+          "ISBN不可见",
+          "出版年份模糊"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        120,
+        119,
+        116,
+        123,
+        128
+      ],
+      "candidateEditions": [
+        120,
+        119,
+        116,
+        123,
+        128
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 7,
+      "latencyMs": 2283.99
+    },
+    {
+      "expectedIsbn": "9787115234247",
+      "expectedEditionId": 102,
+      "expectedWorkId": 102,
+      "file": "data/covers/9787115234247.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "信息检索导论",
+        "subtitle": "Introduction to Information Retrieval",
+        "authors": "C. Manohar, Padmanabhan Rajagopal, Patrick Nason",
+        "translators": "王强, 孙建",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "ISBN缺失",
+          "版次信息缺失",
+          "出版年份缺失"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        102,
+        103,
+        274,
+        303,
+        307
+      ],
+      "candidateEditions": [
+        102,
+        103,
+        274,
+        303,
+        307
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 8,
+      "latencyMs": 2400.13
+    },
+    {
+      "expectedIsbn": "9787115240019",
+      "expectedEditionId": 83,
+      "expectedWorkId": 83,
+      "file": "data/covers/9787115240019.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "iPhone开发秘籍",
+        "subtitle": "Building Applications with the iPhone SDK",
+        "authors": "Erica Sadun",
+        "translators": "张振强,吴晓俊",
+        "isbn13": null,
+        "publisher": "机械工业出版社",
+        "publicationDate": "",
+        "editionStatement": "第2版",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        83,
+        77,
+        82,
+        85,
+        42
+      ],
+      "candidateEditions": [
+        83,
+        77,
+        82,
+        85,
+        42
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 9,
+      "latencyMs": 1998.35
+    },
+    {
+      "expectedIsbn": "9787115241009",
+      "expectedEditionId": 103,
+      "expectedWorkId": 103,
+      "file": "data/covers/9787115241009.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "数据挖掘导论",
+        "subtitle": "",
+        "authors": "Peng Ning Tan, Michael Steinbach, Vipin Kumar",
+        "translators": "范明, 范宏建",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "完整版",
+        "volume": "",
+        "language": "Chinese",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "classificationNo not visible on cover"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        103,
+        102,
+        33,
+        35,
+        36
+      ],
+      "candidateEditions": [
+        103,
+        102,
+        33,
+        35,
+        36
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 10,
+      "latencyMs": 2943.16
+    },
+    {
+      "expectedIsbn": "9787115242716",
+      "expectedEditionId": 95,
+      "expectedWorkId": 95,
+      "file": "data/covers/9787115242716.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "ActionScript for Multiplayer Games and Virtual Worlds",
+        "subtitle": "大型网页游戏开发",
+        "authors": "John Baker",
+        "translators": "李鑫,马磊",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        95,
+        81,
+        470,
+        79,
+        88
+      ],
+      "candidateEditions": [
+        95,
+        81,
+        470,
+        79,
+        88
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 11,
+      "latencyMs": 2026.76
+    },
+    {
+      "expectedIsbn": "9787115243249",
+      "expectedEditionId": 109,
+      "expectedWorkId": 109,
+      "file": "data/covers/9787115243249.jpg",
+      "outcome": "NOT_FOUND",
+      "extracted": {
+        "title": "简约至上",
+        "subtitle": "交互式设计四策略",
+        "authors": "Giles Colborne",
+        "translators": "李松峰,姜维文",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "ISBN不可见",
+          "出版日期不可见",
+          "版次不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": false,
+      "workTop5": false,
+      "versionInCandidates": false,
+      "candidateWorks": [],
+      "candidateEditions": [],
+      "model": "qwen3.5-flash",
+      "recognitionId": 12,
+      "latencyMs": 1809.81
+    },
+    {
+      "expectedIsbn": "9787115246691",
+      "expectedEditionId": 11,
+      "expectedWorkId": 11,
+      "file": "data/covers/9787115246691.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "番茄工作法图解",
+        "subtitle": "简单易行的时间管理方法",
+        "authors": "Stefan Nilsson",
+        "translators": "大静",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见",
+          "ISBN不可见",
+          "版次信息不可见",
+          "语言不可见",
+          "卷次不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        11,
+        286,
+        344,
+        365,
+        490
+      ],
+      "candidateEditions": [
+        11,
+        286,
+        344,
+        365,
+        490
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 13,
+      "latencyMs": 2286.93
+    },
+    {
+      "expectedIsbn": "9787115247995",
+      "expectedEditionId": 62,
+      "expectedWorkId": 62,
+      "file": "data/covers/9787115247995.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "软件测试 (第3版)",
+        "subtitle": "A Craftsman's Approach",
+        "authors": "Paul C. Jorgensen",
+        "translators": "李海峰",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "第3版",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": false,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        61,
+        62,
+        40,
+        72,
+        92
+      ],
+      "candidateEditions": [
+        61,
+        62,
+        40,
+        72,
+        92
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 14,
+      "latencyMs": 1685.09
+    },
+    {
+      "expectedIsbn": "9787115249494",
+      "expectedEditionId": 9,
+      "expectedWorkId": 9,
+      "file": "data/covers/9787115249494.jpg",
+      "outcome": "SINGLE_EDITION",
+      "extracted": {
+        "title": "黑客与画家",
+        "subtitle": "硅谷创业之父Paul Graham文集",
+        "authors": "Paul Graham",
+        "translators": "阮一峰",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "Chinese",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "Classification number not visible on cover"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        9
+      ],
+      "candidateEditions": [
+        9
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 15,
+      "latencyMs": 2084.01
+    },
+    {
+      "expectedIsbn": "9787115259653",
+      "expectedEditionId": 22,
+      "expectedWorkId": 22,
+      "file": "data/covers/9787115259653.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "软件项目成功之道",
+        "subtitle": "A Practical Guide to Successful Software Projects",
+        "authors": "Jared R. Richardson, William A. Gottfried",
+        "translators": "苏新磊,王少轩",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "ISBN缺失",
+          "版次信息缺失",
+          "出版日期缺失",
+          "语言未明确标注"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        22,
+        20,
+        21,
+        14,
+        23
+      ],
+      "candidateEditions": [
+        22,
+        20,
+        21,
+        14,
+        23
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 16,
+      "latencyMs": 2233.97
+    },
+    {
+      "expectedIsbn": "9787115261410",
+      "expectedEditionId": 107,
+      "expectedWorkId": 107,
+      "file": "data/covers/9787115261410.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "认知与设计",
+        "subtitle": "理解UI设计准则",
+        "authors": "Jeff Johnson",
+        "translators": "张一宁",
+        "isbn13": null,
+        "publisher": "",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "zh",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "ISBN不可见",
+          "出版年份不可见",
+          "出版社不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        107,
+        104,
+        12,
+        110,
+        26
+      ],
+      "candidateEditions": [
+        107,
+        104,
+        12,
+        110,
+        26
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 17,
+      "latencyMs": 2162.83
+    },
+    {
+      "expectedIsbn": "9787115261960",
+      "expectedEditionId": 100,
+      "expectedWorkId": 100,
+      "file": "data/covers/9787115261960.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "计算机科学概论",
+        "subtitle": "Computer Science An Overview Eleventh Edition",
+        "authors": "J. Glenn Brookshear",
+        "translators": "刘艺,范欣茹,孔小飞,毛德海",
+        "isbn13": null,
+        "publisher": "机械工业出版社",
+        "publicationDate": "",
+        "editionStatement": "第11版",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见",
+          "版次信息在标题中，未单独提取至editionStatement字段",
+          "译者姓名模糊不清"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        100,
+        349,
+        133,
+        315,
+        453
+      ],
+      "candidateEditions": [
+        100,
+        349,
+        133,
+        315,
+        453
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 18,
+      "latencyMs": 2461.92
+    },
+    {
+      "expectedIsbn": "9787115263636",
+      "expectedEditionId": 96,
+      "expectedWorkId": 96,
+      "file": "data/covers/9787115263636.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "HTML5游戏开发",
+        "subtitle": "Using Games to Learn HTML5 and JavaScript",
+        "authors": "Jeanine Mayer",
+        "translators": "张阳,刘涛",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "中文",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "分类号不可见"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        96,
+        97,
+        98,
+        99,
+        75
+      ],
+      "candidateEditions": [
+        96,
+        97,
+        98,
+        99,
+        75
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 19,
+      "latencyMs": 2119.95
+    },
+    {
+      "expectedIsbn": "9787115264954",
+      "expectedEditionId": 89,
+      "expectedWorkId": 89,
+      "file": "data/covers/9787115264954.jpg",
+      "outcome": "MULTIPLE_WORKS",
+      "extracted": {
+        "title": "高性能PHP应用开发",
+        "subtitle": "Using PHP Web Projects for Maximum Performance",
+        "authors": "Armando Padilla, Tim Hunkins",
+        "translators": "戚晓伟,刘阳",
+        "isbn13": null,
+        "publisher": "人民邮电出版社",
+        "publicationDate": "",
+        "editionStatement": "",
+        "volume": "",
+        "language": "",
+        "classificationNo": "",
+        "confidenceNotes": [
+          "ISBN不可见",
+          "版次信息缺失",
+          "出版年份缺失",
+          "语言未明确标注"
+        ]
+      },
+      "warnings": [],
+      "workTop1": true,
+      "workTop5": true,
+      "versionInCandidates": true,
+      "candidateWorks": [
+        89,
+        91,
+        90,
+        92,
+        276
+      ],
+      "candidateEditions": [
+        89,
+        91,
+        90,
+        92,
+        276
+      ],
+      "model": "qwen3.5-flash",
+      "recognitionId": 20,
+      "latencyMs": 2151.9
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+"""在已有批量演示数据上只读验证选择接口、完整编号核对和登记表结构。"""
+from pathlib import Path
+import requests,json
+from bs4 import BeautifulSoup
+ROOT=Path(__file__).resolve().parents[1];BASE='http://127.0.0.1:8086/library';s=requests.Session();results=[]
+def check(name,condition):
+ results.append({'name':name,'passed':bool(condition)});assert condition,name;print('PASS',name)
+def lookup(**params):return s.get(BASE+'/lookup',params=params,timeout=20)
+a=lookup(kind='student').json();b=lookup(kind='student',page=2).json()
+check('学生全库分页而非前200条',a['total']>=4000 and len(a['items'])==10 and a['pages']>=400 and a['page']==1)
+check('翻页内容不同',b['page']==2 and a['items'][0]['code']!=b['items'][0]['code'])
+students=json.loads((ROOT/'data/demo-20261026/students.json').read_text(encoding='utf-8'));last=students[-1]
+r=lookup(kind='student',q=last['student_no']).json()
+check('可查找末尾年级学生',r['total']==1 and r['items'][0]['code']==last['student_no'])
+r=lookup(kind='student',q='具身智能').json()
+check('专业中文查询',r['total']>0 and all('具身智能' in x['label'] for x in r['items']))
+r=lookup(kind='student',q='未来技术学院').json()
+check('学院中文查询',r['total']>0 and all('未来技术学院' in x['label'] for x in r['items']))
+r=lookup(kind='student',code=last['student_no']).json()
+check('手输完整学号核对',r['eligible'] and r['code']==last['student_no'] and last['name'] in r['label'])
+r=lookup(kind='student',code=last['student_no'][:-1]).json()
+check('学号前缀不冒充完整匹配',not r['found'])
+r=lookup(kind='book').json()
+check('图书全库分页且只返回可借',r['total']>1000 and len(r['items'])==10)
+r=lookup(kind='book',q='黑客与画家').json()
+check('书名可查到前200条之外的馆藏',any(x['code']=='CN-9787115249494' for x in r['items']))
+r=lookup(kind='book',q='Paul Graham').json()
+check('作者关键词查询',any(x['code']=='CN-9787115249494' for x in r['items']))
+r=lookup(kind='book',code='CN-9787115249494').json()
+check('手输完整馆藏号核对',r['eligible'] and '黑客与画家' in r['label'])
+borrowed=BeautifulSoup(s.get(BASE+'/app',params={'module':'books','state':'BORROWED'},timeout=20).text,'html.parser').select_one('.book-table tbody tr td.mono')
+assert borrowed is not None,'验收需要至少一册实际在借图书'
+borrowed_no=borrowed.get_text(strip=True)
+r=lookup(kind='book',code=borrowed_no).json()
+check('精确核对指出图书在借',r['found'] and not r['eligible'] and '借阅中' in r['message'])
+check('选择列表排除在借图书',all(x['code']!=borrowed_no for x in lookup(kind='book',q=borrowed_no).json()['items']))
+check('空结果保留有效分页',lookup(kind='book',q='NO-SUCH-BOOK-TEST').json()=={'total':0,'page':1,'pages':1,'items':[]})
+check('超大页码夹取末页',lookup(kind='student',page=99999).json()['page']==a['pages'])
+check('SQL注入作为普通查询文本',lookup(kind='book',q="' OR 1=1 --").json()['total']==0)
+check('非法类型和过长条件被拒绝',lookup(kind='loan').status_code==400 and lookup(kind='student',q='a'*121).status_code==400)
+check('完整编号拒绝非数字学号',lookup(kind='student',code='NOT_NUMBER').status_code==400)
+check('查询接口不接受写入',s.post(BASE+'/lookup',data={'kind':'student'},timeout=20).status_code==405)
+r=s.get(BASE+'/app',params={'module':'loans','action':'new'},timeout=20);p=BeautifulSoup(r.text,'html.parser')
+check('登记页没有截断的datalist',r.status_code==200 and not p.find('datalist') and len(p.select('[data-picker-open]'))==2)
+check('弹窗搜索表单没有嵌套在登记表内',p.find(id='lookup-search').find_parent('form') is None and p.find(id='borrow-form').find('input',{'name':'csrf'}))
+(ROOT/'docs/选择器验收.json').write_text(json.dumps({'date':'2026-10-26','passed':len(results),'checks':results},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print('All passed:',len(results))

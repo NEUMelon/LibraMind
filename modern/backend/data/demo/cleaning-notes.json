@@ -1,0 +1,119 @@
+[
+  {
+    "isbn13": "9787115243188",
+    "field": "authors",
+    "rawValue": "\u0007Johanna Rothmann, Esther Derby",
+    "cleanedValue": "Johanna Rothmann, Esther Derby",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115256195",
+    "field": "authors",
+    "rawValue": "\u0007Rob Walters 等",
+    "cleanedValue": "Rob Walters 等",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115250513",
+    "field": "authors",
+    "rawValue": "\u0007Stephen Walther, Kevin Hoffman，Nate Dudek",
+    "cleanedValue": "Stephen Walther, Kevin Hoffman，Nate Dudek",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115206992",
+    "field": "authors",
+    "rawValue": "\u0007Stephen Walther, Kevin Hoffman，Nate Dudek",
+    "cleanedValue": "Stephen Walther, Kevin Hoffman，Nate Dudek",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115220172",
+    "field": "authors",
+    "rawValue": "\u0007Stanley B. Lippman, Josee Lajoie, Barbara E. Moo",
+    "cleanedValue": "Stanley B. Lippman, Josee Lajoie, Barbara E. Moo",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115227737",
+    "field": "authors",
+    "rawValue": "\u0007Frank Buschmann 等",
+    "cleanedValue": "Frank Buschmann 等",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115261731",
+    "field": "authors",
+    "rawValue": "\u0007Frank Buschmann 等",
+    "cleanedValue": "Frank Buschmann 等",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115228215",
+    "field": "authors",
+    "rawValue": "\u0007Neil Matthew, Richard Stones",
+    "cleanedValue": "Neil Matthew, Richard Stones",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115251947",
+    "field": "authors",
+    "rawValue": "\u0007Claudia Salzberg Rodriguez 等",
+    "cleanedValue": "Claudia Salzberg Rodriguez 等",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115228406",
+    "field": "authors",
+    "rawValue": "\u0007W. Richard Stevens, Bill Fenner, Andrew M. Rudoff",
+    "cleanedValue": "W. Richard Stevens, Bill Fenner, Andrew M. Rudoff",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115230287",
+    "field": "authors",
+    "rawValue": "\u0007W. Richard Stevens",
+    "cleanedValue": "W. Richard Stevens",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115147318",
+    "field": "authors",
+    "rawValue": "\u0007W. Richard Stevens, Stephen A. Rago",
+    "cleanedValue": "W. Richard Stevens, Stephen A. Rago",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115249999",
+    "field": "authors",
+    "rawValue": "\u0007Jeremy Keith, Jeffrey Sambells",
+    "cleanedValue": "Jeremy Keith, Jeffrey Sambells",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115243249",
+    "rawTitle": "Web表单设计：创建高可用性的网页表单 978-7-115-24668-4 35 2/20/2/11 2 简约至上：交互式设计四策略",
+    "cleanedTitle": "Web表单设计：创建高可用性的网页表单",
+    "reason": "目录PDF抽取把后续书目行拼入标题；只保留下一ISBN之前的标题"
+  },
+  {
+    "isbn13": "9787115232175",
+    "rawTitle": "数学与生活 978-7-115-23770-5 39 12/13/2010 19 微积分的历程：从牛顿到勒贝格",
+    "cleanedTitle": "数学与生活",
+    "reason": "目录PDF抽取把后续书目行拼入标题；只保留下一ISBN之前的标题"
+  },
+  {
+    "isbn13": "9787115240767",
+    "field": "authors",
+    "rawValue": "\u0007Don K. Mak, Angela T. Mak, Anthony B. Mak",
+    "cleanedValue": "Don K. Mak, Angela T. Mak, Anthony B. Mak",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  },
+  {
+    "isbn13": "9787115232120",
+    "field": "authors",
+    "rawValue": "\u0007Lawrence Weinstein, John A. Adam",
+    "cleanedValue": "Lawrence Weinstein, John A. Adam",
+    "reason": "移除目录抽取引入的不可打印控制字符"
+  }
+]

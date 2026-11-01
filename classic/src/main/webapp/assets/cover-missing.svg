@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="330" viewBox="0 0 240 330" role="img" aria-labelledby="title desc">
+  <title id="title">封面暂缺</title><desc id="desc">该图书暂未提供封面图片</desc>
+  <rect x="0.5" y="0.5" width="239" height="329" fill="#f4f5f6" stroke="#d2d6de"/>
+  <g fill="none" stroke="#9aa4ae" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 112h59v76H91c-8 0-13-4-13-11v-53c0-7 5-12 13-12Z"/>
+    <path d="M91 112v62h59M78 176c0-6 5-10 13-10M104 129h31M104 142h24"/>
+  </g>
+  <text x="120" y="224" text-anchor="middle" fill="#59636e" font-size="18" font-family="Microsoft YaHei,PingFang SC,sans-serif">封面暂缺</text>
+</svg>

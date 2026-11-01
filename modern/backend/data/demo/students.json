@@ -1,0 +1,3082 @@
+[
+  {
+    "studentNo": "20210001",
+    "name": "黄若溪",
+    "college": "工商管理学院",
+    "major": "信息管理与信息系统",
+    "enabled": true
+  },
+  {
+    "studentNo": "20210002",
+    "name": "闫佳怡",
+    "college": "资源与土木工程学院",
+    "major": "采矿工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20210003",
+    "name": "曹明",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210004",
+    "name": "崔一诺",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210005",
+    "name": "覃一诺",
+    "college": "外国语学院",
+    "major": "日语（区域与国别）",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210006",
+    "name": "戴嘉宁",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210007",
+    "name": "沈安然",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210008",
+    "name": "贾知远",
+    "college": "资源与土木工程学院",
+    "major": "土木工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210009",
+    "name": "何欣悦",
+    "college": "医学与生物信息工程学院",
+    "major": "生物医学工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210010",
+    "name": "孙明",
+    "college": "信息科学与工程学院",
+    "major": "自动化",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210011",
+    "name": "董思齐",
+    "college": "资源与土木工程学院",
+    "major": "安全工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210012",
+    "name": "陶博文",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210013",
+    "name": "徐子涵",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210014",
+    "name": "莫子墨",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210015",
+    "name": "吕嘉禾",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210016",
+    "name": "邱可欣",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210017",
+    "name": "史知远",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210018",
+    "name": "谭奕辰",
+    "college": "计算机科学与工程学院",
+    "major": "电子信息工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210019",
+    "name": "陈浩然",
+    "college": "工商管理学院",
+    "major": "会计学",
+    "enabled": false
+  },
+  {
+    "studentNo": "20210020",
+    "name": "程子涵",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220001",
+    "name": "白奕辰",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20220002",
+    "name": "刘诗涵",
+    "college": "冶金学院",
+    "major": "环境科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20220003",
+    "name": "钱宇航",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220004",
+    "name": "尹佳怡",
+    "college": "机械工程与自动化学院",
+    "major": "智能车辆工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220005",
+    "name": "毛浩然",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220006",
+    "name": "闫博文",
+    "college": "外国语学院",
+    "major": "俄语",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220007",
+    "name": "程子墨",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220008",
+    "name": "龚梓轩",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220009",
+    "name": "卢雨桐",
+    "college": "艺术学院",
+    "major": "视觉传达设计",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220010",
+    "name": "付佳宁",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220011",
+    "name": "胡佳宁",
+    "college": "外国语学院",
+    "major": "日语（区域与国别）",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220012",
+    "name": "金雨桐",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220013",
+    "name": "尹思远",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220014",
+    "name": "郝知远",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220015",
+    "name": "邓曦",
+    "college": "工商管理学院",
+    "major": "市场营销",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220016",
+    "name": "曹佳怡",
+    "college": "冶金学院",
+    "major": "新能源科学与工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220017",
+    "name": "范若溪",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220018",
+    "name": "黎博文",
+    "college": "工商管理学院",
+    "major": "金融学",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220019",
+    "name": "苏知远",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": false
+  },
+  {
+    "studentNo": "20220020",
+    "name": "尹妍",
+    "college": "资源与土木工程学院",
+    "major": "安全工程",
+    "enabled": false
+  },
+  {
+    "studentNo": "20230001",
+    "name": "贺梓轩",
+    "college": "工商管理学院",
+    "major": "市场营销",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230002",
+    "name": "郑浩然",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230003",
+    "name": "杜景行",
+    "college": "资源与土木工程学院",
+    "major": "土木工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230004",
+    "name": "谢一诺",
+    "college": "外国语学院",
+    "major": "德语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230005",
+    "name": "薛明",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230006",
+    "name": "侯奕辰",
+    "college": "艺术学院",
+    "major": "音乐表演",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230007",
+    "name": "姚宁",
+    "college": "计算机科学与工程学院",
+    "major": "计算机科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230008",
+    "name": "高安然",
+    "college": "信息科学与工程学院",
+    "major": "电子科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230009",
+    "name": "梁浩然",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230010",
+    "name": "梁雨桐",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230011",
+    "name": "潘博文",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230012",
+    "name": "谢宇航",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230013",
+    "name": "郑宇航",
+    "college": "工商管理学院",
+    "major": "会计学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230014",
+    "name": "宋若溪",
+    "college": "理学院",
+    "major": "化学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230015",
+    "name": "严俊杰",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230016",
+    "name": "马明",
+    "college": "机械工程与自动化学院",
+    "major": "机械工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230017",
+    "name": "谢安然",
+    "college": "信息科学与工程学院",
+    "major": "自动化",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230018",
+    "name": "孙宁",
+    "college": "材料科学与工程学院",
+    "major": "材料物理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230019",
+    "name": "严佳怡",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230020",
+    "name": "杜子涵",
+    "college": "资源与土木工程学院",
+    "major": "遥感科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230021",
+    "name": "石奕辰",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230022",
+    "name": "范嘉宁",
+    "college": "理学院",
+    "major": "信息与计算科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230023",
+    "name": "付景行",
+    "college": "外国语学院",
+    "major": "英语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230024",
+    "name": "徐宇浩",
+    "college": "工商管理学院",
+    "major": "金融学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230025",
+    "name": "夏若溪",
+    "college": "外国语学院",
+    "major": "日语（区域与国别）",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230026",
+    "name": "陈思远",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230027",
+    "name": "谢一诺",
+    "college": "医学与生物信息工程学院",
+    "major": "生物医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230028",
+    "name": "杜景行",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230029",
+    "name": "侯佳怡",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230030",
+    "name": "江明",
+    "college": "理学院",
+    "major": "数学与应用数学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230031",
+    "name": "姚宇航",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230032",
+    "name": "蒋雨桐",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230033",
+    "name": "戴思齐",
+    "college": "医学与生物信息工程学院",
+    "major": "生物医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230034",
+    "name": "薛可欣",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230035",
+    "name": "夏俊杰",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230036",
+    "name": "张俊杰",
+    "college": "资源与土木工程学院",
+    "major": "资源勘查工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230037",
+    "name": "梁明",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230038",
+    "name": "江子墨",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230039",
+    "name": "张宇航",
+    "college": "资源与土木工程学院",
+    "major": "土木工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230040",
+    "name": "胡文静",
+    "college": "计算机科学与工程学院",
+    "major": "电子信息工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230041",
+    "name": "莫明",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230042",
+    "name": "徐妍",
+    "college": "文法学院",
+    "major": "土地资源管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230043",
+    "name": "龚曦",
+    "college": "文法学院",
+    "major": "法学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230044",
+    "name": "黄欣悦",
+    "college": "信息科学与工程学院",
+    "major": "自动化",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230045",
+    "name": "熊子墨",
+    "college": "机械工程与自动化学院",
+    "major": "真空工程与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230046",
+    "name": "汪嘉禾",
+    "college": "计算机科学与工程学院",
+    "major": "通信工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230047",
+    "name": "武佳怡",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230048",
+    "name": "万嘉禾",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230049",
+    "name": "贾浩然",
+    "college": "机械工程与自动化学院",
+    "major": "智能制造工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230050",
+    "name": "贺思齐",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230051",
+    "name": "汤俊杰",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230052",
+    "name": "彭宇航",
+    "college": "机械工程与自动化学院",
+    "major": "智能制造工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230053",
+    "name": "田雨桐",
+    "college": "计算机科学与工程学院",
+    "major": "通信工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230054",
+    "name": "彭佳怡",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230055",
+    "name": "方子墨",
+    "college": "艺术学院",
+    "major": "视觉传达设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230056",
+    "name": "胡思远",
+    "college": "冶金学院",
+    "major": "能源与动力工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230057",
+    "name": "郭嘉禾",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230058",
+    "name": "邵文静",
+    "college": "医学与生物信息工程学院",
+    "major": "生物医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230059",
+    "name": "雷妍",
+    "college": "资源与土木工程学院",
+    "major": "资源勘查工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230060",
+    "name": "孙佳宁",
+    "college": "计算机科学与工程学院",
+    "major": "物联网工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230061",
+    "name": "郝清扬",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230062",
+    "name": "邵佳宁",
+    "college": "信息科学与工程学院",
+    "major": "测控技术与仪器",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230063",
+    "name": "杨一诺",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230064",
+    "name": "朱俊杰",
+    "college": "艺术学院",
+    "major": "视觉传达设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230065",
+    "name": "田宇浩",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230066",
+    "name": "段佳怡",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230067",
+    "name": "于思远",
+    "college": "艺术学院",
+    "major": "视觉传达设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230068",
+    "name": "许宇浩",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230069",
+    "name": "钟知远",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230070",
+    "name": "董诗涵",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230071",
+    "name": "熊一诺",
+    "college": "冶金学院",
+    "major": "环境科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230072",
+    "name": "闫曦",
+    "college": "工商管理学院",
+    "major": "工商管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230073",
+    "name": "莫嘉宁",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230074",
+    "name": "卢一诺",
+    "college": "信息科学与工程学院",
+    "major": "工业智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230075",
+    "name": "毛嘉禾",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230076",
+    "name": "朱欣悦",
+    "college": "冶金学院",
+    "major": "资源循环科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230077",
+    "name": "朱清扬",
+    "college": "文法学院",
+    "major": "土地资源管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230078",
+    "name": "韩文静",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230079",
+    "name": "胡可欣",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230080",
+    "name": "汪奕辰",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230081",
+    "name": "万子墨",
+    "college": "计算机科学与工程学院",
+    "major": "通信工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230082",
+    "name": "梁知远",
+    "college": "冶金学院",
+    "major": "新能源材料与器件",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230083",
+    "name": "叶曦",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230084",
+    "name": "郭俊杰",
+    "college": "文法学院",
+    "major": "公共事业管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230085",
+    "name": "王清扬",
+    "college": "信息科学与工程学院",
+    "major": "电子科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230086",
+    "name": "袁思齐",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230087",
+    "name": "蔡可欣",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230088",
+    "name": "许曦",
+    "college": "计算机科学与工程学院",
+    "major": "通信工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230089",
+    "name": "邓俊杰",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230090",
+    "name": "梁景行",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230091",
+    "name": "郑思齐",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230092",
+    "name": "孙安然",
+    "college": "冶金学院",
+    "major": "环境科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230093",
+    "name": "崔妍",
+    "college": "艺术学院",
+    "major": "视觉传达设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230094",
+    "name": "万子墨",
+    "college": "工商管理学院",
+    "major": "经济学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230095",
+    "name": "梁子墨",
+    "college": "外国语学院",
+    "major": "日语（区域与国别）",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230096",
+    "name": "邓雨桐",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230097",
+    "name": "崔诗涵",
+    "college": "工商管理学院",
+    "major": "工业工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230098",
+    "name": "朱子墨",
+    "college": "信息科学与工程学院",
+    "major": "电子科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230099",
+    "name": "吕博文",
+    "college": "工商管理学院",
+    "major": "工商管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20230100",
+    "name": "李思远",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240001",
+    "name": "李可欣",
+    "college": "机械工程与自动化学院",
+    "major": "工业设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240002",
+    "name": "毛俊杰",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240003",
+    "name": "宋安然",
+    "college": "资源与土木工程学院",
+    "major": "矿物加工工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240004",
+    "name": "冯子涵",
+    "college": "资源与土木工程学院",
+    "major": "采矿工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240005",
+    "name": "方奕辰",
+    "college": "冶金学院",
+    "major": "资源循环科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240006",
+    "name": "李宇浩",
+    "college": "理学院",
+    "major": "数学与应用数学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240007",
+    "name": "陶知远",
+    "college": "冶金学院",
+    "major": "冶金工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240008",
+    "name": "薛思齐",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240009",
+    "name": "徐可欣",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240010",
+    "name": "姚佳宁",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240011",
+    "name": "万思齐",
+    "college": "资源与土木工程学院",
+    "major": "采矿工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240012",
+    "name": "莫安然",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240013",
+    "name": "宋子涵",
+    "college": "文法学院",
+    "major": "土地资源管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240014",
+    "name": "徐博文",
+    "college": "文法学院",
+    "major": "行政管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240015",
+    "name": "李梓轩",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240016",
+    "name": "林明",
+    "college": "冶金学院",
+    "major": "新能源科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240017",
+    "name": "向明",
+    "college": "文法学院",
+    "major": "法学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240018",
+    "name": "石子墨",
+    "college": "机械工程与自动化学院",
+    "major": "真空工程与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240019",
+    "name": "孔宁",
+    "college": "工商管理学院",
+    "major": "工商管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240020",
+    "name": "万可欣",
+    "college": "外国语学院",
+    "major": "日语（区域与国别）",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240021",
+    "name": "侯子墨",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240022",
+    "name": "莫文静",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240023",
+    "name": "任景行",
+    "college": "资源与土木工程学院",
+    "major": "安全工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240024",
+    "name": "任思远",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240025",
+    "name": "崔雨桐",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240026",
+    "name": "丁佳宁",
+    "college": "计算机科学与工程学院",
+    "major": "物联网工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240027",
+    "name": "崔思齐",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240028",
+    "name": "于子墨",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240029",
+    "name": "吴明",
+    "college": "理学院",
+    "major": "数学与应用数学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240030",
+    "name": "陶欣悦",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240031",
+    "name": "段博文",
+    "college": "外国语学院",
+    "major": "英语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240032",
+    "name": "任子涵",
+    "college": "工商管理学院",
+    "major": "市场营销",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240033",
+    "name": "石文静",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240034",
+    "name": "崔曦",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240035",
+    "name": "白佳怡",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240036",
+    "name": "叶佳宁",
+    "college": "理学院",
+    "major": "数学与应用数学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240037",
+    "name": "侯若溪",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240038",
+    "name": "郝奕辰",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240039",
+    "name": "谢宁",
+    "college": "机械工程与自动化学院",
+    "major": "机械工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240040",
+    "name": "彭佳怡",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240041",
+    "name": "方佳怡",
+    "college": "文法学院",
+    "major": "行政管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240042",
+    "name": "秦博文",
+    "college": "工商管理学院",
+    "major": "经济学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240043",
+    "name": "彭佳怡",
+    "college": "信息科学与工程学院",
+    "major": "电气工程及其自动化",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240044",
+    "name": "杜子墨",
+    "college": "计算机科学与工程学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240045",
+    "name": "姜梓轩",
+    "college": "机械工程与自动化学院",
+    "major": "真空工程与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240046",
+    "name": "贺子涵",
+    "college": "文法学院",
+    "major": "公共事业管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240047",
+    "name": "邓清扬",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240048",
+    "name": "万嘉禾",
+    "college": "理学院",
+    "major": "化学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240049",
+    "name": "龙诗涵",
+    "college": "工商管理学院",
+    "major": "市场营销",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240050",
+    "name": "韦佳怡",
+    "college": "信息科学与工程学院",
+    "major": "测控技术与仪器",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240051",
+    "name": "汤子涵",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240052",
+    "name": "曹曦",
+    "college": "机械工程与自动化学院",
+    "major": "智能制造工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240053",
+    "name": "范嘉禾",
+    "college": "软件学院",
+    "major": "软件工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240054",
+    "name": "姜子涵",
+    "college": "信息科学与工程学院",
+    "major": "测控技术与仪器",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240055",
+    "name": "董妍",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240056",
+    "name": "侯诗涵",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240057",
+    "name": "吕若溪",
+    "college": "理学院",
+    "major": "应用化学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240058",
+    "name": "侯俊杰",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240059",
+    "name": "徐可欣",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240060",
+    "name": "白可欣",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240061",
+    "name": "宋佳宁",
+    "college": "冶金学院",
+    "major": "能源与动力工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240062",
+    "name": "韩嘉禾",
+    "college": "软件学院",
+    "major": "软件工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240063",
+    "name": "卢安然",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240064",
+    "name": "江嘉宁",
+    "college": "冶金学院",
+    "major": "新能源材料与器件",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240065",
+    "name": "于俊杰",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240066",
+    "name": "贾思齐",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240067",
+    "name": "马浩然",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240068",
+    "name": "顾欣悦",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240069",
+    "name": "方梓轩",
+    "college": "资源与土木工程学院",
+    "major": "矿物加工工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240070",
+    "name": "潘思齐",
+    "college": "外国语学院",
+    "major": "日语（区域与国别）",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240071",
+    "name": "龙子涵",
+    "college": "信息科学与工程学院",
+    "major": "自动化",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240072",
+    "name": "杨嘉禾",
+    "college": "工商管理学院",
+    "major": "工商管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240073",
+    "name": "郑子涵",
+    "college": "机械工程与自动化学院",
+    "major": "智能车辆工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240074",
+    "name": "林安然",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240075",
+    "name": "顾雨桐",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240076",
+    "name": "郝可欣",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240077",
+    "name": "江安然",
+    "college": "工商管理学院",
+    "major": "市场营销",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240078",
+    "name": "徐文静",
+    "college": "材料科学与工程学院",
+    "major": "功能材料",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240079",
+    "name": "唐宇航",
+    "college": "信息科学与工程学院",
+    "major": "测控技术与仪器",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240080",
+    "name": "邵嘉禾",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240081",
+    "name": "杨若溪",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240082",
+    "name": "肖俊杰",
+    "college": "医学与生物信息工程学院",
+    "major": "生物医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240083",
+    "name": "史子涵",
+    "college": "工商管理学院",
+    "major": "信息管理与信息系统",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240084",
+    "name": "史清扬",
+    "college": "医学与生物信息工程学院",
+    "major": "生物医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240085",
+    "name": "石子涵",
+    "college": "机械工程与自动化学院",
+    "major": "机械工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240086",
+    "name": "陈子涵",
+    "college": "软件学院",
+    "major": "软件工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240087",
+    "name": "崔宁",
+    "college": "信息科学与工程学院",
+    "major": "工业智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240088",
+    "name": "史思齐",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240089",
+    "name": "杨欣悦",
+    "college": "冶金学院",
+    "major": "资源循环科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240090",
+    "name": "贺佳宁",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240091",
+    "name": "罗宇航",
+    "college": "工商管理学院",
+    "major": "工业工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240092",
+    "name": "梁思齐",
+    "college": "机械工程与自动化学院",
+    "major": "真空工程与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240093",
+    "name": "陶博文",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240094",
+    "name": "闫明",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240095",
+    "name": "叶清扬",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240096",
+    "name": "孙可欣",
+    "college": "文法学院",
+    "major": "法学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240097",
+    "name": "黎知远",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240098",
+    "name": "覃妍",
+    "college": "理学院",
+    "major": "化学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240099",
+    "name": "刘子涵",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20240100",
+    "name": "万可欣",
+    "college": "材料科学与工程学院",
+    "major": "材料科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250001",
+    "name": "范奕辰",
+    "college": "资源与土木工程学院",
+    "major": "智能采矿工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250002",
+    "name": "廖嘉禾",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250003",
+    "name": "马思远",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250004",
+    "name": "黎一诺",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250005",
+    "name": "周诗涵",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250006",
+    "name": "许子墨",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250007",
+    "name": "曾嘉宁",
+    "college": "工商管理学院",
+    "major": "市场营销",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250008",
+    "name": "徐可欣",
+    "college": "信息科学与工程学院",
+    "major": "自动化",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250009",
+    "name": "彭梓轩",
+    "college": "工商管理学院",
+    "major": "经济学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250010",
+    "name": "夏子墨",
+    "college": "艺术学院",
+    "major": "音乐表演",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250011",
+    "name": "曾子涵",
+    "college": "艺术学院",
+    "major": "视觉传达设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250012",
+    "name": "江浩然",
+    "college": "冶金学院",
+    "major": "新能源科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250013",
+    "name": "谭妍",
+    "college": "外国语学院",
+    "major": "英语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250014",
+    "name": "覃可欣",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250015",
+    "name": "丁欣悦",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250016",
+    "name": "沈子涵",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250017",
+    "name": "张佳宁",
+    "college": "冶金学院",
+    "major": "新能源科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250018",
+    "name": "何子涵",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250019",
+    "name": "卢浩然",
+    "college": "冶金学院",
+    "major": "资源循环科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250020",
+    "name": "冯一诺",
+    "college": "资源与土木工程学院",
+    "major": "土木工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250021",
+    "name": "周思齐",
+    "college": "材料科学与工程学院",
+    "major": "材料物理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250022",
+    "name": "廖嘉宁",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250023",
+    "name": "宋清扬",
+    "college": "文法学院",
+    "major": "土地资源管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250024",
+    "name": "徐景行",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250025",
+    "name": "韦雨桐",
+    "college": "理学院",
+    "major": "信息与计算科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250026",
+    "name": "郭子涵",
+    "college": "材料科学与工程学院",
+    "major": "材料物理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250027",
+    "name": "金明",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250028",
+    "name": "严嘉禾",
+    "college": "冶金学院",
+    "major": "环境科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250029",
+    "name": "吴子墨",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250030",
+    "name": "董思远",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250031",
+    "name": "杜景行",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250032",
+    "name": "曾佳宁",
+    "college": "信息科学与工程学院",
+    "major": "测控技术与仪器",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250033",
+    "name": "夏奕辰",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250034",
+    "name": "夏奕辰",
+    "college": "外国语学院",
+    "major": "俄语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250035",
+    "name": "刘佳怡",
+    "college": "理学院",
+    "major": "化学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250036",
+    "name": "王安然",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250037",
+    "name": "向奕辰",
+    "college": "理学院",
+    "major": "应用物理学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250038",
+    "name": "徐嘉禾",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250039",
+    "name": "程明",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250040",
+    "name": "王佳宁",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250041",
+    "name": "向诗涵",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250042",
+    "name": "熊梓轩",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250043",
+    "name": "林俊杰",
+    "college": "工商管理学院",
+    "major": "信息管理与信息系统",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250044",
+    "name": "钟俊杰",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250045",
+    "name": "龚知远",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250046",
+    "name": "马佳怡",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250047",
+    "name": "侯一诺",
+    "college": "工商管理学院",
+    "major": "经济学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250048",
+    "name": "覃嘉宁",
+    "college": "计算机科学与工程学院",
+    "major": "计算机科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250049",
+    "name": "薛一诺",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250050",
+    "name": "冯明",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250051",
+    "name": "秦知远",
+    "college": "资源与土木工程学院",
+    "major": "安全工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250052",
+    "name": "方佳怡",
+    "college": "文法学院",
+    "major": "公共事业管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250053",
+    "name": "罗梓轩",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250054",
+    "name": "范雨桐",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250055",
+    "name": "余嘉禾",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250056",
+    "name": "严若溪",
+    "college": "工商管理学院",
+    "major": "工业工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250057",
+    "name": "叶可欣",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250058",
+    "name": "程子墨",
+    "college": "冶金学院",
+    "major": "冶金工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250059",
+    "name": "姚可欣",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250060",
+    "name": "徐梓轩",
+    "college": "信息科学与工程学院",
+    "major": "工业智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250061",
+    "name": "覃一诺",
+    "college": "材料科学与工程学院",
+    "major": "材料物理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250062",
+    "name": "曹诗涵",
+    "college": "信息科学与工程学院",
+    "major": "电子科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250063",
+    "name": "崔宇航",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250064",
+    "name": "魏知远",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250065",
+    "name": "沈奕辰",
+    "college": "资源与土木工程学院",
+    "major": "智能采矿工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250066",
+    "name": "程博文",
+    "college": "外国语学院",
+    "major": "德语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250067",
+    "name": "邱清扬",
+    "college": "文法学院",
+    "major": "公共事业管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250068",
+    "name": "郭知远",
+    "college": "工商管理学院",
+    "major": "金融学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250069",
+    "name": "陆清扬",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250070",
+    "name": "刘思远",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250071",
+    "name": "付一诺",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250072",
+    "name": "邱嘉禾",
+    "college": "冶金学院",
+    "major": "新能源科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250073",
+    "name": "梁妍",
+    "college": "冶金学院",
+    "major": "资源循环科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250074",
+    "name": "闫可欣",
+    "college": "工商管理学院",
+    "major": "信息管理与信息系统",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250075",
+    "name": "宋子墨",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250076",
+    "name": "曾安然",
+    "college": "机械工程与自动化学院",
+    "major": "机械工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250077",
+    "name": "江宇浩",
+    "college": "材料科学与工程学院",
+    "major": "功能材料",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250078",
+    "name": "何嘉禾",
+    "college": "信息科学与工程学院",
+    "major": "测控技术与仪器",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250079",
+    "name": "谭思齐",
+    "college": "工商管理学院",
+    "major": "经济学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250080",
+    "name": "何俊杰",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250081",
+    "name": "龙诗涵",
+    "college": "文法学院",
+    "major": "行政管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250082",
+    "name": "吴奕辰",
+    "college": "信息科学与工程学院",
+    "major": "自动化",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250083",
+    "name": "汤若溪",
+    "college": "计算机科学与工程学院",
+    "major": "物联网工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250084",
+    "name": "胡清扬",
+    "college": "文法学院",
+    "major": "土地资源管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250085",
+    "name": "陈宁",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250086",
+    "name": "胡知远",
+    "college": "资源与土木工程学院",
+    "major": "资源勘查工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250087",
+    "name": "侯妍",
+    "college": "材料科学与工程学院",
+    "major": "材料物理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250088",
+    "name": "戴宇浩",
+    "college": "工商管理学院",
+    "major": "工业工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250089",
+    "name": "熊若溪",
+    "college": "外国语学院",
+    "major": "俄语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250090",
+    "name": "郑奕辰",
+    "college": "资源与土木工程学院",
+    "major": "土木工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250091",
+    "name": "崔景行",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250092",
+    "name": "郝曦",
+    "college": "软件学院",
+    "major": "虚拟现实技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250093",
+    "name": "蒋雨桐",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250094",
+    "name": "覃若溪",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250095",
+    "name": "江博文",
+    "college": "机器人科学与工程学院",
+    "major": "机器人工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250096",
+    "name": "郑博文",
+    "college": "文法学院",
+    "major": "土地资源管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250097",
+    "name": "袁清扬",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250098",
+    "name": "肖文静",
+    "college": "理学院",
+    "major": "应用化学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250099",
+    "name": "张嘉禾",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20250100",
+    "name": "白浩然",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260001",
+    "name": "贺安然",
+    "college": "计算机科学与工程学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260002",
+    "name": "姚佳宁",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260003",
+    "name": "范诗涵",
+    "college": "计算机科学与工程学院",
+    "major": "通信工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260004",
+    "name": "李浩然",
+    "college": "理学院",
+    "major": "工程力学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260005",
+    "name": "魏嘉宁",
+    "college": "医学与生物信息工程学院",
+    "major": "智能医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260006",
+    "name": "侯文静",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260007",
+    "name": "廖明",
+    "college": "文法学院",
+    "major": "公共事业管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260008",
+    "name": "王嘉禾",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260009",
+    "name": "杜思远",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260010",
+    "name": "何思齐",
+    "college": "外国语学院",
+    "major": "俄语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260011",
+    "name": "梁博文",
+    "college": "机械工程与自动化学院",
+    "major": "真空工程与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260012",
+    "name": "段妍",
+    "college": "冶金学院",
+    "major": "新能源科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260013",
+    "name": "胡景行",
+    "college": "文法学院",
+    "major": "法学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260014",
+    "name": "韦博文",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260015",
+    "name": "魏思齐",
+    "college": "冶金学院",
+    "major": "环境科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260016",
+    "name": "潘欣悦",
+    "college": "理学院",
+    "major": "应用化学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260017",
+    "name": "高浩然",
+    "college": "工商管理学院",
+    "major": "经济学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260018",
+    "name": "严曦",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260019",
+    "name": "夏奕辰",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260020",
+    "name": "任子墨",
+    "college": "理学院",
+    "major": "数学与应用数学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260021",
+    "name": "彭子墨",
+    "college": "机械工程与自动化学院",
+    "major": "机械工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260022",
+    "name": "邵思齐",
+    "college": "理学院",
+    "major": "信息与计算科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260023",
+    "name": "谭子涵",
+    "college": "资源与土木工程学院",
+    "major": "环境工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260024",
+    "name": "钟俊杰",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260025",
+    "name": "吴宇航",
+    "college": "外国语学院",
+    "major": "德语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260026",
+    "name": "袁欣悦",
+    "college": "资源与土木工程学院",
+    "major": "遥感科学与技术",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260027",
+    "name": "姚宁",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260028",
+    "name": "邹奕辰",
+    "college": "材料科学与工程学院",
+    "major": "材料物理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260029",
+    "name": "邓嘉宁",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260030",
+    "name": "方佳宁",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260031",
+    "name": "何奕辰",
+    "college": "机械工程与自动化学院",
+    "major": "机械工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260032",
+    "name": "袁宇浩",
+    "college": "材料科学与工程学院",
+    "major": "材料科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260033",
+    "name": "孙妍",
+    "college": "材料科学与工程学院",
+    "major": "材料成型及控制工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260034",
+    "name": "韦浩然",
+    "college": "理学院",
+    "major": "信息与计算科学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260035",
+    "name": "邱知远",
+    "college": "冶金学院",
+    "major": "能源与动力工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260036",
+    "name": "苏奕辰",
+    "college": "马克思主义学院",
+    "major": "思想政治教育",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260037",
+    "name": "肖宁",
+    "college": "冶金学院",
+    "major": "新能源材料与器件",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260038",
+    "name": "严景行",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260039",
+    "name": "廖佳怡",
+    "college": "机械工程与自动化学院",
+    "major": "工业设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260040",
+    "name": "罗知远",
+    "college": "外国语学院",
+    "major": "俄语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260041",
+    "name": "万欣悦",
+    "college": "材料科学与工程学院",
+    "major": "功能材料",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260042",
+    "name": "薛佳宁",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260043",
+    "name": "韩可欣",
+    "college": "信息科学与工程学院",
+    "major": "电气工程及其自动化",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260044",
+    "name": "谭梓轩",
+    "college": "计算机科学与工程学院",
+    "major": "电子信息工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260045",
+    "name": "王宁",
+    "college": "资源与土木工程学院",
+    "major": "智能采矿工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260046",
+    "name": "高俊杰",
+    "college": "冶金学院",
+    "major": "资源循环科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260047",
+    "name": "邓梓轩",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260048",
+    "name": "王佳宁",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260049",
+    "name": "董宇航",
+    "college": "计算机科学与工程学院",
+    "major": "电子信息工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260050",
+    "name": "武清扬",
+    "college": "材料科学与工程学院",
+    "major": "材料科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260051",
+    "name": "苏佳怡",
+    "college": "计算机科学与工程学院",
+    "major": "通信工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260052",
+    "name": "金子墨",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260053",
+    "name": "叶安然",
+    "college": "冶金学院",
+    "major": "冶金工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260054",
+    "name": "郝清扬",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260055",
+    "name": "张浩然",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260056",
+    "name": "邓雨桐",
+    "college": "江河建筑学院",
+    "major": "城乡规划",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260057",
+    "name": "肖若溪",
+    "college": "材料科学与工程学院",
+    "major": "材料科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260058",
+    "name": "郑若溪",
+    "college": "软件学院",
+    "major": "软件工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260059",
+    "name": "韦妍",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260060",
+    "name": "林欣悦",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260061",
+    "name": "陆子墨",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260062",
+    "name": "蒋文静",
+    "college": "文法学院",
+    "major": "法学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260063",
+    "name": "廖知远",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260064",
+    "name": "戴梓轩",
+    "college": "机械工程与自动化学院",
+    "major": "智能制造工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260065",
+    "name": "韩欣悦",
+    "college": "体育部",
+    "major": "社会体育指导与管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260066",
+    "name": "冯嘉宁",
+    "college": "外国语学院",
+    "major": "德语",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260067",
+    "name": "赵梓轩",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260068",
+    "name": "潘浩然",
+    "college": "资源与土木工程学院",
+    "major": "土木工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260069",
+    "name": "姚宇航",
+    "college": "艺术学院",
+    "major": "音乐表演",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260070",
+    "name": "吕曦",
+    "college": "工商管理学院",
+    "major": "会计学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260071",
+    "name": "武子涵",
+    "college": "软件学院",
+    "major": "软件工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260072",
+    "name": "莫博文",
+    "college": "信息科学与工程学院",
+    "major": "测控技术与仪器",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260073",
+    "name": "白佳宁",
+    "college": "冶金学院",
+    "major": "资源循环科学与工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260074",
+    "name": "汤雨桐",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260075",
+    "name": "徐安然",
+    "college": "外国语学院",
+    "major": "日语（区域与国别）",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260076",
+    "name": "许明",
+    "college": "理学院",
+    "major": "应用物理学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260077",
+    "name": "张子墨",
+    "college": "马克思主义学院",
+    "major": "哲学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260078",
+    "name": "贺浩然",
+    "college": "文法学院",
+    "major": "行政管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260079",
+    "name": "胡嘉禾",
+    "college": "软件学院",
+    "major": "软件工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260080",
+    "name": "石子涵",
+    "college": "软件学院",
+    "major": "软件工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260081",
+    "name": "闫佳怡",
+    "college": "体育部",
+    "major": "运动训练",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260082",
+    "name": "龙思远",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260083",
+    "name": "程佳宁",
+    "college": "资源与土木工程学院",
+    "major": "环境工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260084",
+    "name": "尹梓轩",
+    "college": "机械工程与自动化学院",
+    "major": "工业设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260085",
+    "name": "梁文静",
+    "college": "工商管理学院",
+    "major": "会计学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260086",
+    "name": "孟宇浩",
+    "college": "生命科学与健康学院",
+    "major": "生物制药",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260087",
+    "name": "夏浩然",
+    "college": "工商管理学院",
+    "major": "金融学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260088",
+    "name": "邱景行",
+    "college": "艺术学院",
+    "major": "环境设计",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260089",
+    "name": "石一诺",
+    "college": "软件学院",
+    "major": "信息安全",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260090",
+    "name": "丁嘉禾",
+    "college": "工商管理学院",
+    "major": "工业工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260091",
+    "name": "韦明",
+    "college": "机器人科学与工程学院",
+    "major": "具身智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260092",
+    "name": "彭若溪",
+    "college": "江河建筑学院",
+    "major": "建筑学",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260093",
+    "name": "赵子涵",
+    "college": "资源与土木工程学院",
+    "major": "环境工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260094",
+    "name": "贾子涵",
+    "college": "生命科学与健康学院",
+    "major": "生物工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260095",
+    "name": "谢知远",
+    "college": "医学与生物信息工程学院",
+    "major": "生物医学工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260096",
+    "name": "于俊杰",
+    "college": "冶金学院",
+    "major": "能源与动力工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260097",
+    "name": "严梓轩",
+    "college": "机械工程与自动化学院",
+    "major": "智能车辆工程",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260098",
+    "name": "石诗涵",
+    "college": "文法学院",
+    "major": "行政管理",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260099",
+    "name": "郑文静",
+    "college": "未来技术学院",
+    "major": "人工智能",
+    "enabled": true
+  },
+  {
+    "studentNo": "20260100",
+    "name": "姚佳宁",
+    "college": "理学院",
+    "major": "化学",
+    "enabled": true
+  }
+]

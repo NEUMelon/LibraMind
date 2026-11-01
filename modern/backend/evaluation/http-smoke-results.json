@@ -1,0 +1,66 @@
+{
+  "time": "2026-10-27T14:17:40.062760+00:00",
+  "checks": [
+    {
+      "check": "public-index",
+      "passed": true
+    },
+    {
+      "check": "book-sorting",
+      "passed": true
+    },
+    {
+      "check": "reader-student-list-forbidden",
+      "passed": true
+    },
+    {
+      "check": "foreign-loan-404",
+      "passed": true
+    },
+    {
+      "check": "prepare-no-write",
+      "passed": true
+    },
+    {
+      "check": "http-confirm-once",
+      "passed": true
+    },
+    {
+      "check": "copy-borrowed",
+      "passed": true
+    },
+    {
+      "check": "http-confirm-return",
+      "passed": true
+    },
+    {
+      "check": "counts-restored",
+      "passed": true
+    },
+    {
+      "check": "actual-code128-decode",
+      "passed": true
+    },
+    {
+      "check": "label-list",
+      "passed": true
+    },
+    {
+      "check": "cors-http://127.0.0.1:5173",
+      "passed": true
+    },
+    {
+      "check": "cors-https://untrusted.invalid",
+      "passed": true
+    }
+  ],
+  "mockLoanCreatedAndReturned": 25,
+  "circulationCounts": {
+    "students": 440,
+    "editions": 500,
+    "copies": 1000,
+    "available": 981,
+    "activeLoans": 16,
+    "overdueLoans": 2
+  }
+}
